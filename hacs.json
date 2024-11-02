@@ -10,5 +10,5 @@
   "issues": "https://github.com/maziggy/ppfdChart/issues",
   "dependencies": [],
   "codeowners": ["@maziggy"],
-  "filename": "/files/ppfdChart/dist/ppfdChart.min.js"
+  "filename": "/hacsfiles/dist/ppfdChart.min.js"
 }
