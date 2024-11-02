@@ -21,4 +21,4 @@ entity: input_number.grow_ppfd
 refresh_interval: 60 # seconds
 
 ## Screenshot
-![Image Description](https://github.com/maziggy/ppfdChart/blob/main/images/ppfdChart.png)
+![Screenshot](https://github.com/maziggy/ppfdChart/raw/main/images/ppfdChart.png)
