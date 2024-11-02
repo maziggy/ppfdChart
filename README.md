@@ -19,4 +19,4 @@ A custom Lovelace card for Home Assistant that shows a bar chart that displays t
 type: 'custom:ppfdChart'
 entity: sensor.your_sensor
 title: 'My Custom Card'
-# Add other configuration options here
+refresh_interval: 60 # seconds
