@@ -1,0 +1,22 @@
+# ppfdChart
+
+A custom Lovelace card for Home Assistant that shows a bar chart that displays the current ppfd value for grow lights.
+
+## Installation
+
+### Via HACS
+
+1. Ensure you have [HACS](https://hacs.xyz/) installed.
+2. In Home Assistant, go to **HACS** > **Frontend**.
+3. Click the **"+"** button to add a new repository.
+4. Enter the repository URL: `https://github.com/maziggy/ppfdChart.git`.
+5. Select **Lovelace** as the category and **Save**.
+6. Once installed, add the card to your Lovelace dashboard.
+
+## Configuration
+
+```yaml
+type: 'custom:ppfdChart'
+entity: sensor.your_sensor
+title: 'My Custom Card'
+# Add other configuration options here

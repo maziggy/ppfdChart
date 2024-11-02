@@ -1,0 +1,15 @@
+{
+  "name": "PPFD Chart",
+  "content_in_root": false,
+  "render_readme": true,
+  "domains": ["lovelace"],
+  "country": "DE",
+  "homeassistant": ">=2021.0.0",
+  "iot_class": "local_polling",
+  "documentation": "https://github.com/maziggy/ppfdChart#readme",
+  "readme": "https://github.com/maziggy/ppfdChart/blob/main/README.md",
+  "issues": "https://github.com/maziggy/ppfdChart/issues",
+  "dependencies": [],
+  "codeowners": ["@maziggy"],
+  "filename": "dist/ppfdChart.min.js"
+}
