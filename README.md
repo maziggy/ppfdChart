@@ -19,3 +19,6 @@ A custom Lovelace card for Home Assistant that shows a bar chart that displays t
 type: custom:ppfd-custom-card
 entity: input_number.grow_ppfd
 refresh_interval: 60 # seconds
+
+## Screenshot
+![Image Description](https://raw.githubusercontent.com/maziggy/ppfdChart/main/images/ppfdChart.png)
