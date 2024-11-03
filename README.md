@@ -15,11 +15,15 @@ First try writing a custom card. I know it's not perfect. Any contributions, rec
 5. Select **Dashboard** as the category and **Save**.
 6. Once installed, add the card to your Lovelace dashboard.
 
+or simply
+
+[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=Martin+Ziegler&repository=https%3A%2F%2Fgithub.com%2Fmaziggy%2FppfdChart.git&category=Dashboard)
+
 ## Configuration
 
 ```yaml
 type: custom:ppfd-custom-card
-entity: input_number.grow_ppfd
-refresh_interval: 60 # seconds
-
-[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=Martin+Ziegler&repository=https%3A%2F%2Fgithub.com%2Fmaziggy%2FppfdChart.git&category=Dashboard)
+entity: input_text.grow_ppfd
+light_on_entity: time.growbox_light_scheduled_on_time
+light_off_entity: time.growbox_light_scheduled_off_time
+refresh_interval: 60
