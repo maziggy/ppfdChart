@@ -2,6 +2,8 @@
 
 A custom dashboard card for Home Assistant that shows a bar chart that displays the current ppfd value for grow lights.
 
+First try writing a custom card. I know it's not perfect. Any contributions, recommendations and comments are welcome!
+
 ## Installation
 
 ### Via HACS
