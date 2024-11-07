@@ -4,6 +4,9 @@ A custom dashboard card for Home Assistant that shows a bar chart that displays 
 
 First try writing a custom card. I know it's not perfect. Any contributions, recommendations and comments are welcome!
 
+## Screenshot
+![Screnshot](https://raw.githubusercontent.com/maziggy/ppfdChart/refs/heads/main/screenshots/ppfdChart.png)
+
 ## Installation
 
 ### Via HACS
