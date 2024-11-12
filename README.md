@@ -26,7 +26,19 @@ or simply
 
 ```yaml
 type: custom:ppfd-custom-card
-entity: input_text.grow_ppfd
-light_on_entity: time.growbox_light_scheduled_on_time
-light_off_entity: time.growbox_light_scheduled_off_time
-refresh_interval: 60
+entity: input_number.grow_ppfd
+light_on_entity: time.light_scheduled_on_time
+light_off_entity: time.light_scheduled_off_time
+refresh_interval: 1800
+theme:
+  bgColor: "#323335"
+  cardColor: "#2c2c2e"
+  textColor: "#ffffff"
+  dliBgColor: "#000000"
+  dliTextColor: "#ffffff"
+  markerBgColor: "#f2af10"
+  markerBorderColor: "#fddc34"
+  markerTextColor: "#000000"
+layout_options:
+  grid_columns: 8
+  grid_rows: auto
