@@ -39,3 +39,6 @@ theme:
   markerBgColor: "#f2af10"
   markerBorderColor: "#fddc34"
   markerTextColor: "#000000"
+layout_options:
+  grid_columns: 8
+  grid_rows: auto
