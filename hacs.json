@@ -1,6 +1,6 @@
 {
   "name": "PPFD Chart",
-  "description": "A custom dashboard card for Home Assistant that shows a bar chart that displays the current ppfd/DLI value for grow lights."
+  "description": "A custom dashboard card for Home Assistant that shows a bar chart that displays the current ppfd/DLI value for grow lights.",
   "content_in_root": false,
   "render_readme": true,
   "domains": ["lovelace"],
